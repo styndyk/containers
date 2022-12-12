@@ -1,0 +1,95 @@
+
+
+/* General Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap'); /* Import font family*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Rubik', sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 400;
+	color: #363940;
+	overflow-x: hidden;
+	width: 100%;
+	background-color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #6E38F7;
+}
+
+ul, li {
+	list-style-type: none;
+}
+
+input:focus {
+	outline: none;
+}
+
+/* END General Styles */
+
+/* Header Styles */
+
+.header {
+
+}
+
+.container {
+	max-width: 1200px;
+	margin: 50px auto;
+}
+
+.header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__left {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__nav {
+
+}
+
+.header__nav__list {
+	display: flex;
+	column-gap: 20px;
+}
+
+.header__nav__list__item {
+
+}
+
+.header__nav__list__item__link {
+	font-size: 0.75em;
+	line-height: 1.25em;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #363940;
+	font-weight: 500;
+}
+
+.header__right {
+	display: flex;
+	column-gap: 20px;
+	font-size: 0.75em;
+	line-height: 1.25em;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+/* END Header Styles */
+
